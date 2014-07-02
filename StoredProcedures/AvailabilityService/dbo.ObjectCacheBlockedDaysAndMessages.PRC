@@ -9,8 +9,6 @@ CREATE PROCEDURE dbo.ObjectCacheBlockedDaysAndMessages
 SET NOCOUNT ON
 SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 
-return 0
-
 -- Return just the blocked dates and RID
 SELECT  b.RID,
 		BlockedDate,
